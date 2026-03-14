@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boutique en ligne</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>🛍️ Ma Boutique</h1>
+    <button id="cart-toggle" aria-label="Ouvrir le panier">
+      🛒 Panier
+      <span id="cart-count" class="cart-count">0</span>
+    </button>
+  </header>
+
+  <main>
+    <!-- PRODUCT GRID -->
+    <section id="products-section">
+      <h2>Nos Produits</h2>
+      <div id="product-grid" class="product-grid"></div>
+    </section>
+
+    <!-- CART PANEL -->
+    <aside id="cart-panel" class="cart-panel hidden">
+      <div class="cart-header">
+        <h2>Mon Panier</h2>
+        <button id="close-cart" aria-label="Fermer le panier">&times;</button>
+      </div>
+      <ul id="cart-items" class="cart-items"></ul>
+      <div id="cart-empty" class="cart-empty">Votre panier est vide.</div>
+      <div id="cart-footer" class="cart-footer hidden">
+        <div class="cart-total">
+          Total : <strong id="cart-total">0,00 €</strong>
+        </div>
+        <button id="checkout-btn" class="btn-checkout">Commander</button>
+      </div>
+    </aside>
+    <div id="cart-overlay" class="cart-overlay hidden"></div>
+  </main>
+
+  <!-- ORDER CONFIRMATION MODAL -->
+  <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-content">
+      <h2 id="modal-title">✅ Commande confirmée !</h2>
+      <p>Merci pour votre achat. Vous recevrez un email de confirmation.</p>
+      <button id="modal-close" class="btn-checkout">Continuer mes achats</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
