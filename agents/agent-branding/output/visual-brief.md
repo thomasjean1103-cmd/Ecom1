@@ -1,111 +1,133 @@
-# BRIEF CHARTE VISUELLE — PAWLY
+# Brief Charte Visuelle — FELINO
+**Date :** Mars 2026
+
+---
 
 ## Palette de Couleurs
 
-| Rôle | Couleur | Hex | Usage |
-|------|---------|-----|-------|
-| **Primaire** | Terracotta chaud | `#C75B3A` | Boutons CTA, accents, titres forts |
-| **Secondaire** | Beige sable | `#F2E8D9` | Fonds, sections claires |
-| **Accent** | Vert sauge | `#7A9E7E` | Tags, badges "Eco", éléments secondaires |
-| **Texte principal** | Brun foncé | `#2C1A0E` | Corps de texte, titres |
-| **Fond neutre** | Blanc cassé | `#FAFAF7` | Background général du site |
+| Rôle | Couleur | HEX | Utilisation |
+|------|---------|-----|-------------|
+| **Primaire** | Noir charbon | `#1A1A1A` | Logo, titres, boutons CTA |
+| **Secondaire** | Grège chaud | `#C4B5A0` | Accents, badges, illustrations |
+| **Accent** | Terracotta doux | `#C9705A` | Notifications, étiquettes promo, liens |
+| **Fond principal** | Blanc cassé | `#FAF8F5` | Fond site, fond emails |
+| **Fond secondaire** | Sable clair | `#F0EBE3` | Sections alternées, cartes produits |
+| **Texte corps** | Anthracite | `#3D3D3D` | Paragraphes, descriptions |
+| **Texte doux** | Gris chaud | `#8A8178` | Labels, sous-titres, mentions |
 
-**Logique de la palette :**
-- Terracotta = chaleur, authenticité, énergie (pas trop agressif)
-- Beige = naturel, premium, accessible
-- Vert sauge = bien-être animal, nature, confiance
-- Évite le bleu classique et le rouge vif = différenciation des concurrents
+**Logique chromatique :** Palette naturelle et apaisante qui s'intègre à n'importe quel intérieur. Évite les couleurs saturées qui font "promo".
 
 ---
 
 ## Typographie
 
 ### Police Titre
-- **Nom :** Playfair Display (Google Fonts — gratuit)
-- **Style :** Serif élégant, caractère premium
-- **Usage :** H1, H2, noms de produits, citations
-- **Alternatif :** Cormorant Garamond
+- **Nom :** Cormorant Garamond (Google Fonts — gratuit)
+- **Variante :** Regular 400 / SemiBold 600
+- **Caractère :** Élégante, classique modernisée, légèrement luxueuse
+- **Usage :** Titres H1/H2, nom de marque dans certains contextes
+- **Alternative payante :** Canela (Commercial Type)
 
 ### Police Corps
-- **Nom :** Inter (Google Fonts — gratuit)
-- **Style :** Sans-serif moderne, excellent en petit
-- **Usage :** Descriptions, boutons, navigation, corps
-- **Alternatif :** DM Sans
+- **Nom :** DM Sans (Google Fonts — gratuit)
+- **Variante :** Regular 400 / Medium 500
+- **Caractère :** Lisible, moderne, neutre, très bon rendu mobile
+- **Usage :** Texte courant, descriptions, boutons, navigation
 
-### Règles typo
-- Titres : Playfair Display, 700, terracotta ou brun foncé
-- Sous-titres : Inter, 600, brun foncé
-- Corps : Inter, 400, brun foncé
-- CTA boutons : Inter, 700, uppercase, letterspacing +0.05em
-
----
-
-## Style Visuel
-
-### Direction artistique
-- **Mood :** Lifestyle chaud et naturel — pas studio froid
-- **Palette photo :** Tons chauds, lumière naturelle, extérieur et intérieur cosy
-- **Atmosphère :** "Sunday morning with my dog"
-
-### Style photo prioritaire
-1. **Lifestyle** (70%) — Vrai chien en situation réelle (promenade, canapé, jardin)
-2. **UGC-style** (20%) — Photo "amateur qualité" prise par le propriétaire
-3. **Studio** (10%) — Fond beige ou blanc cassé, produit seul, ombres douces
-
-### Ce qu'on évite
-- Photos trop parfaites / sur-produites
-- Fonds blancs cliniques type Zooplus
-- Chiens malheureux ou en situation de stress
-- Stock photos génériques (chien labrador sur fond blanc)
-
-### Éléments graphiques récurrents
-- Icône patte stylisée (logo Pawly)
-- Traits fins arrondis (cercles, arcs)
-- Textures légères (grain papier ou lin) en overlay subtil
-- Tags/badges arrondis (pas carrés)
+### Hiérarchie Typographique
+```
+H1 Titre principal   : Cormorant Garamond 600 — 42px / line-height 1.2
+H2 Titre section     : Cormorant Garamond 400 — 28px / line-height 1.3
+H3 Sous-titre        : DM Sans 500 — 18px / line-height 1.4
+Corps de texte       : DM Sans 400 — 15px / line-height 1.7
+Labels / Badges      : DM Sans 500 — 11px / letter-spacing 0.1em UPPERCASE
+```
 
 ---
 
-## Brief Logo
+## Style Visuel & Direction Artistique
 
-### Concept
-Icône patte stylisée, minimaliste, avec le nom "PAWLY" en Playfair Display à côté ou en dessous.
+### Références Moodboard
+1. **Intérieur minimaliste scandinave** — tons naturels, bois clair, plantes vertes
+2. **Déco japonaise wabi-sabi** — imperfection élégante, matières naturelles
+3. **Lifestyle "linen and coffee"** — ambiance cozy matinale, lumière douce
+4. **Marques de référence :** MiaCara (design), Hay (simplicité), &Other Stories (lifestyle)
 
-### Variations requises
-| Version | Usage |
-|---------|-------|
-| Logo principal | Header site, emballage |
-| Icône seule (patte) | Favicon, réseaux, app |
-| Monochrome noir | Impression, documents |
-| Monochrome blanc | Fond sombre, overlay photo |
+### Style Photo
 
-### Formats livrables
-- SVG (vectoriel, pour tout redimensionner)
-- PNG fond transparent (x2, x3)
-- Favicon 32x32 et 180x180 (Apple Touch)
-- Format Canva pour réutilisation facile
+**Photos Produit (fond studio)**
+- Fond : blanc cassé (#FAF8F5) ou béton texturé léger
+- Lumière : naturelle simulée, douce, pas de flash brutal
+- Ombres : douces et naturelles
+- Angles : 3/4 face, vue de dessus, détail matière
 
-### Option création logo
-| Outil | Prix | Rapidité | Qualité |
-|-------|------|----------|---------|
-| Canva (logo maker) | Gratuit/13€ | 30 min | ★★★ |
-| Looka.com | ~65€ one-time | 1h | ★★★★ |
-| Fiverr (designer) | 30-80€ | 2-3 jours | ★★★★★ |
-| Midjourney + Figma | ~9€/mois | 2h | ★★★★ |
+**Photos Lifestyle (avec chat)**
+- Intérieur réel : appartements modernes et épurés
+- Tons chauds, lumière naturelle de fenêtre
+- Chat présent et naturel (pas posé artificiellement)
+- Pas d'humain visible de face (focus sur l'ambiance et le produit)
+- Palette cohérente avec la charte (éviter le rouge, le vert vif)
 
-**Recommandation :** Looka pour démarrer vite, puis Fiverr si la marque décolle.
+**Vidéos / Contenu UGC**
+- Format vertical 9:16 pour TikTok/Reels
+- 15-30 secondes idéalement
+- Pas de voix-off : sous-titres et musique ambiante
+- Transitions simples, pas d'effets tape-à-l'œil
 
 ---
 
-## Moodboard — Références
+## Logo — Brief Créatif
 
-### Marques référence
-1. **Hund** (marque suédoise chien) — minimalisme, tons naturels
-2. **Wild One** (USA) — lifestyle moderne, couleurs riches
-3. **Hay** (design maison) — simplicité premium, typographie forte
+### Concept Principal
+Wordmark "FELINO" avec un élément graphique minimaliste évoquant un chat (oreilles, silhouette, queue stylisée) intégré dans ou autour de la lettre F ou le I.
 
-### Univers visuel cible
-- Photos de chiens en extérieur, lumière dorée
-- Intérieurs modernes mais chaleureux (bois, textiles naturels)
-- Propriétaires jeunes et actifs (pas seniors, pas enfants)
-- Saisons : printemps/automne (couleurs de la palette)
+### Style
+- Tracés fins, géométrie épurée
+- Pas de cartoon, pas de mignon
+- Poids visuel : léger et aérien
+
+### Variations Requises
+| Variation | Usage |
+|-----------|-------|
+| Logo principal (noir) | Header site, documents officiels |
+| Logo blanc | Footer sombre, publicités fond foncé |
+| Icône seule | Favicon, app icon, profil Instagram |
+| Logo horizontal | Emballages, tampon |
+| Logo vertical (empilé) | Cartes de visite, stickers |
+
+### Formats à Livrer
+- SVG (vectoriel, toutes variations)
+- PNG transparent 1000x1000px (et 500x500)
+- PNG blanc sur fond noir (et inverse)
+- Favicon 32x32px et 192x192px
+
+### Outils Recommandés
+- **Budget 0 :** Canva (résultat correct)
+- **Budget 50-80€ :** Looka.com (génération IA + droits complets)
+- **Budget 150-300€ :** Fiverr (designer spécialisé logo minimaliste)
+- **Budget 500€+ :** 99designs contest
+
+---
+
+## Éléments Graphiques Récurrents
+
+- **Trait fin horizontal** (#C4B5A0, 1px) : séparateur de sections
+- **Rond plein** (#C4B5A0 ou #C9705A) : bullet point, accent décoratif
+- **Icônes line art** : style contour fin, coins légèrement arrondis
+- **Pastille badge** : fond #1A1A1A, texte blanc, border-radius 4px
+
+---
+
+## Applications Pratiques
+
+### Packaging
+- Boîte neutre kraft ou blanche
+- Sticker rond avec logo FELINO
+- Carte de remerciement manuscrite (impression numérique)
+- Ruban de couleur grège pour fermeture
+
+### Email
+- Header : fond #FAF8F5, logo centré
+- Corps : fond blanc, police DM Sans
+- CTA bouton : fond #1A1A1A, texte blanc, border-radius 6px
+- Footer : fond #1A1A1A, texte blanc discret

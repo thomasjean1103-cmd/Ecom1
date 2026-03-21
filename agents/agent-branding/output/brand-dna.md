@@ -1,45 +1,55 @@
-# BRAND DNA — PAWLY
-══════════════════════════════════════════════════════
+# Brand DNA — FELINO
+**Date :** Mars 2026
+**Niche :** Accessoires & Mobilier Design pour Chats
+**Marché :** France, Belgique, Suisse
 
-## MISSION
-Aider les propriétaires de chiens à prendre soin de leur compagnon avec des produits pensés pour le bien-être animal — sans compromis sur la qualité ni sur le style.
+---
 
-## VISION
-Dans 5 ans, Pawly est la marque de référence en France pour les accessoires chien premium : reconnue pour la qualité de ses produits, la force de sa communauté, et son engagement pour le bien-être animal.
+## MARQUE : FELINO
 
-## VALEURS
-1. **Bien-être avant tout** — Chaque produit est évalué d'abord pour son impact sur le chien, jamais uniquement pour son prix.
-2. **Authenticité** — On parle vrai. Pas de marketing vide, pas de promesses non tenues.
-3. **Communauté** — Les propriétaires de chiens forment une tribu. On construit pour cette tribu.
-4. **Durabilité** — Mieux vaut un produit qui dure que dix produits jetables.
-5. **Joie** — Les chiens nous apportent de la joie. Nos produits aussi.
+### MISSION
+Créer des accessoires pour chats qui embellissent les intérieurs et améliorent le bien-être des animaux — sans choisir entre les deux.
 
-## PERSONNALITÉ DE MARQUE
-**La marque EST :** chaleureuse, experte, accessible, moderne, bienveillante
-**La marque N'EST PAS :** froide, condescendante, cheap, agressive, trop sérieuse
+### VISION
+Devenir la marque de référence en Europe francophone pour les propriétaires de chats qui ne veulent pas sacrifier leur déco. D'ici 2028, être présent dans 50 000 foyers en France, Belgique et Suisse.
 
-## POSITIONNEMENT
-```
-Pour les propriétaires de chiens français (25-45 ans)
-qui veulent le meilleur pour leur compagnon sans y passer des heures à chercher,
-PAWLY est la marque d'accessoires chien premium
-qui combine qualité vérifiée, design moderne et prix honnêtes
-contrairement aux grandes enseignes génériques (Zooplus, Pets at Home)
-parce que chaque produit est sélectionné par des passionnés qui ont eux-mêmes des chiens.
-```
+### VALEURS
+1. **DESIGN SANS COMPROMIS** — Un produit qui ne serait pas beau chez nous, on ne le vend pas.
+2. **BIEN-ÊTRE ANIMAL** — Chaque produit répond à un besoin réel du chat, pas juste à l'envie de l'humain.
+3. **HONNÊTETÉ** — Prix justes, communication transparente, SAV humain.
+4. **DURABILITÉ** — Produits pensés pour durer, pas pour être jetés.
 
-## TON DE COMMUNICATION
+### PERSONNALITÉ DE MARQUE
+- **La marque EST :** Élégante, Chaleureuse, Moderne, Bienveillante, Authentique
+- **La marque N'EST PAS :** Froide, Ostentatoire, Clinique, Générique, Condescendante
+
+### TON DE COMMUNICATION
 **On dit :**
-- "Ton chien mérite ce qu'il y a de mieux."
-- "Testé par des chiens vrais, approuvé par leurs humains."
-- "Promenade sans stress, chien heureux."
-- "Ce harnais, c'est le game-changer qu'on n'avait pas prévu."
+- "Ton chat va adorer. Tes invités aussi."
+- "Conçu pour les chats qui vivent dans de beaux intérieurs."
+- "Simple. Beau. Fait pour durer."
 
 **On ne dit pas :**
-- "Achetez maintenant avant rupture de stock !!!" ❌
-- "Produit de qualité supérieure certifiée" (vague) ❌
-- "Livraison depuis la Chine" ❌
-- "Nos clients adorent" sans preuve ❌
+- "PROMO -70% AUJOURD'HUI SEULEMENT !!!"
+- "Livraison depuis la Chine en 30 jours."
+- "Produit de qualité supérieure" (montrer, pas dire)
 
-## PROPOSITION DE VALEUR UNIQUE
-> **Pawly sélectionne les accessoires chien que tu mettais des heures à trouver — des produits qui durent, qui fonctionnent, et dont ton chien raffole.**
+### CLIENT IDÉAL
+Léa, 31 ans, vit à Lyon dans un appartement T3 qu'elle a décoré avec soin. Elle a deux chats, Oscar et Mochi, qu'elle traite comme des membres de la famille. Elle a cherché un griffoir pendant 3 semaines parce que tous ceux qu'elle trouvait étaient moches.
+
+- **Son problème :** Les accessoires pour chats sont soit laids, soit hors de prix.
+- **Son rêve :** Un intérieur qui accueille ses chats sans trahir son style.
+- **Ce qui la convainc :** Une belle photo lifestyle, des avis authentiques, une politique de retour simple.
+
+### PROPOSITION DE VALEUR UNIQUE
+FELINO crée des accessoires pour chats qui s'intègrent naturellement à ton intérieur — sans compromis sur le bien-être de ton animal.
+
+### CE QU'ON EST / CE QU'ON N'EST PAS
+
+| On EST | On N'EST PAS |
+|--------|--------------|
+| Une marque lifestyle pour pet parents urbains | Une animalerie généraliste |
+| Design minimaliste et intemporel | Flashy, promotionnel, criard |
+| Prix accessible (30-80€) | Luxe inaccessible ni bas de gamme jetable |
+| Communication chaleureuse et authentique | Marketing agressif et promotionnel |
+| SAV humain en français | Bot automatisé sans réponse |
