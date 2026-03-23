@@ -1,3 +1,8 @@
+import { createMockAnalysisEngine } from './analysis-engine/index.js';
+
+const analysisEngine = createMockAnalysisEngine();
+window.analysisEngine = analysisEngine;
+
 // ===== PRODUCT DATA =====
 const PRODUCT = {
   id: 1,
