@@ -1,104 +1,57 @@
-# Ecom1 — Écosystème E-Commerce Complet
+# Mission Commerce — MVP SaaS Next.js
 
-## Structure du Projet
+SaaS e-commerce guidé par missions pour valider un produit à partir de preuves terrain.
 
-```
-Ecom1/
-├── index.html                    ← Boutique frontend (démo)
-├── app.js                        ← Logique panier
-├── style.css                     ← Styles
-│
-├── agents/                       ← 14 Agents Spécialisés
-│   ├── agent-niche/              ← Trouver & valider sa niche
-│   ├── agent-produit/            ← Sélection & sourcing produits
-│   ├── agent-branding/           ← Identité de marque & Brand DNA
-│   ├── agent-site/               ← Création boutique Shopify
-│   ├── agent-copywriting/        ← Fiches produit & copy pub
-│   ├── agent-static-ads/         ← Images pub IA (FAL AI)
-│   ├── agent-video-ads/          ← Scripts UGC & vidéos pub
-│   ├── agent-seo/                ← Référencement & contenu
-│   ├── agent-meta-ads/           ← Campagnes Facebook/Instagram
-│   ├── agent-tiktok-ads/         ← Stratégie TikTok
-│   ├── agent-email/              ← Séquences & flows Klaviyo
-│   ├── agent-service-client/     ← FAQ & scripts support
-│   ├── agent-analytics/          ← KPIs & optimisation data
-│   └── agent-scaling/            ← Scaler & expansion
-│
-├── resources/                    ← Ressources & Templates
-│   ├── checklist-lancement.md   ← Checklist 0 → première vente
-│   ├── kpis-ecom.md             ← Toutes les métriques & formules
-│   ├── outils-stack.md          ← Stack d'outils recommandés
-│   └── legal-templates/
-│       ├── cgv-template.md      ← Conditions Générales de Vente
-│       ├── politique-retours.md ← Politique retours
-│       └── mentions-legales.md  ← Mentions légales
-│
-└── static-ad-generator/          ← Générateur d'images pub IA
-    └── skills/
-        ├── skill.md             ← Documentation pipeline complet
-        └── references/
-            └── template-prompts.md  ← 40 templates publicitaires
+## Stack
+- Next.js App Router
+- TypeScript strict
+- Tailwind CSS
+- UI inspirée shadcn/ui (composants locaux réutilisables)
+- Supabase (schéma SQL fourni pour Postgres/Auth/Storage)
+- Moteur d'analyse mock remplaçable plus tard par OpenAI
+
+## Arborescence
+```txt
+app/
+  page.tsx
+  auth/login/page.tsx
+  auth/signup/page.tsx
+  dashboard/page.tsx
+  dashboard/projects/new/page.tsx
+  dashboard/projects/[projectId]/page.tsx
+  dashboard/projects/[projectId]/mission/page.tsx
+components/
+  dashboard/
+  forms/
+  layout/
+  ui/
+lib/
+  analysis/mock-engine.ts
+  constants/missions.ts
+  data/repository.ts
+  domain/types.ts
+  mock/storage.ts
+  supabase/schema.sql
 ```
 
----
+## Lancement local
+```bash
+npm install
+npm run dev
+```
 
-## Les 14 Agents — Parcours E-Commerce
+Ouvrir ensuite `http://localhost:3000`.
 
-### Phase 1 — Fondations
-| Agent | Rôle |
-|-------|------|
-| `agent-niche` | Trouver et valider sa niche profitable |
-| `agent-produit` | Sélectionner les produits gagnants |
-| `agent-branding` | Construire une identité de marque forte |
-| `agent-site` | Créer une boutique Shopify qui convertit |
+## Déploiement Vercel
+1. Importer le dépôt dans Vercel.
+2. Configurer les variables Supabase plus tard si vous branchez le backend réel.
+3. Build command: `npm run build`
+4. Output: `.next`
 
-### Phase 2 — Contenu & Créatif
-| Agent | Rôle |
-|-------|------|
-| `agent-copywriting` | Rédiger du texte qui vend |
-| `agent-static-ads` | Générer des images publicitaires IA |
-| `agent-video-ads` | Créer des scripts et briefs vidéo UGC |
-| `agent-seo` | Optimiser pour Google et le trafic organique |
+## Supabase
+Le schéma et le seed des missions sont dans `lib/supabase/schema.sql`.
 
-### Phase 3 — Acquisition
-| Agent | Rôle |
-|-------|------|
-| `agent-meta-ads` | Lancer et optimiser les Meta Ads |
-| `agent-tiktok-ads` | Conquérir TikTok et ses formats |
-| `agent-email` | Automatiser l'email marketing |
-
-### Phase 4 — Opérations & Scaling
-| Agent | Rôle |
-|-------|------|
-| `agent-service-client` | Gérer les clients et litiges |
-| `agent-analytics` | Analyser les données et optimiser |
-| `agent-scaling` | Scaler et diversifier |
-
----
-
-## Comment Utiliser les Agents
-
-Chaque agent est dans `agents/[nom-agent]/skill.md`.
-
-Ouvre le fichier de l'agent dont tu as besoin, lis les **Inputs Requis**, fournis les informations demandées, et suis le **Processus** étape par étape.
-
-**Ordre recommandé pour démarrer :**
-1. `agent-niche` → valider ta niche
-2. `agent-produit` → choisir ton produit
-3. `agent-branding` → créer ton identité
-4. `agent-site` → lancer ta boutique
-5. `agent-copywriting` → rédiger le contenu
-6. `agent-static-ads` → créer les visuels pub
-7. `agent-meta-ads` → lancer les premières pubs
-8. `agent-email` → configurer les automations
-9. `agent-analytics` → suivre et optimiser
-10. `agent-scaling` → scaler ce qui fonctionne
-
----
-
-## Ressources
-
-- `checklist-lancement.md` — Rien n'oublier avant le go-live
-- `kpis-ecom.md` — Toutes les formules et cibles
-- `outils-stack.md` — Quel outil choisir et à quel prix
-- `legal-templates/` — Templates légaux prêts à personnaliser
+## Remplacer le moteur mock par OpenAI
+- `lib/analysis/mock-engine.ts` contient le moteur actuel.
+- `lib/data/repository.ts` est la couche d'orchestration à remplacer par un provider Supabase + OpenAI.
+- `lib/mock/storage.ts` sert de backend local pour le MVP et les démonstrations hors réseau.
