@@ -51,7 +51,38 @@ Ouvrir ensuite `http://localhost:3000`.
 ## Supabase
 Le schéma et le seed des missions sont dans `lib/supabase/schema.sql`.
 
-## Remplacer le moteur mock par OpenAI
-- `lib/analysis/mock-engine.ts` contient le moteur actuel.
-- `lib/data/repository.ts` est la couche d'orchestration à remplacer par un provider Supabase + OpenAI.
-- `lib/mock/storage.ts` sert de backend local pour le MVP et les démonstrations hors réseau.
+- `checklist-lancement.md` — Rien n'oublier avant le go-live
+- `kpis-ecom.md` — Toutes les formules et cibles
+- `outils-stack.md` — Quel outil choisir et à quel prix
+- `legal-templates/` — Templates légaux prêts à personnaliser
+
+
+---
+
+## Analysis Engine modulaire
+
+Le dépôt expose maintenant un service modulaire `analysis-engine/` pour analyser les preuves d’une mission sans dépendre d’une vraie clé API.
+
+### Contrat d’entrée
+- `missionId`
+- `missionName`
+- `objective`
+- `market` *(optionnel)*
+- `channel` *(optionnel)*
+- `evidence[]` avec `id`, `type`, `label`, `value`, `confidence`, `source`, `notes`
+
+### Contrat de sortie
+- `score`
+- `summary`
+- `decision`
+- `next_action`
+- `strengths[]`
+- `weaknesses[]`
+- `red_flags[]`
+
+### Modules
+- `analysis-engine/types.js` — types JSDoc et enums de contrat
+- `analysis-engine/prompt-builder.js` — construction du prompt structuré
+- `analysis-engine/service.js` — interface unique `AnalysisEngine`
+- `analysis-engine/mock-provider.js` — implémentation mock compatible
+- `analysis-engine/index.js` — exports + factory `createMockAnalysisEngine()`
